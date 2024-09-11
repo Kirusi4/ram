@@ -1,0 +1,23 @@
+queue=[]
+print["before enqueue,its empty"]
+print(queue)
+queue["a","b","c"]
+print("after enqueue,the queue is")
+print(queue)
+print("now enqueue or insertion")
+queue.append("d")
+queue.append("e")
+print(queue)
+print("after deletion,dequeue")
+print(queue.pop(0))
+print(queue)
+print(queue.pop(0))
+print(queue)
+print(queue.pop(0))
+print(queue)
+print(queue.pop(0))
+print(queue)
+print(queue.pop(0))
+print(queue)
+print(queue.pop(0))
+print(queue)
